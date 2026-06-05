@@ -1,0 +1,29 @@
+{
+  "run_id": "2026-06-05-codex-reference-audit",
+  "date": "2026-06-05",
+  "tool_model": "Codex reference audit run",
+  "repository": "https://github.com/Dmatut7/shoppay-audit-benchmark",
+  "target_commit": "4d48579364459bb7b8413064e89131b2e8b5f13a",
+  "prompt": "Read SPEC.md, audit src/, and report every implementation behavior that violates the business rules. For each finding, include the violated rule, impacted file/function, reproduction idea, and minimal fix direction. Do not rely only on existing tests.",
+  "score": {
+    "total": 100,
+    "spec_grounding": 15,
+    "defect_coverage": 40,
+    "business_impact": 15,
+    "reproduction_quality": 15,
+    "fix_direction": 10,
+    "prioritization": 5
+  },
+  "seeded_defects_found": [
+    "orders.getOrder lacks ownership/admin checks",
+    "orders.refund lacks ownership/admin checks",
+    "orders.refund allows non-paid orders",
+    "orders.refund allows amount above capturedAmount",
+    "webhook.verify allows x-internal bypass",
+    "webhook.handlePaymentWebhook trusts bypassed webhook",
+    "pricing.computeTotal calculates tax before discount",
+    "users.updateProfile allows privileged field overwrite",
+    "wallet.deduct can double-spend under concurrency"
+  ],
+  "notes": "Reference run for documentation and comparison. It identifies all seeded defect categories from BENCHMARK.md and docs/SCORING.md."
+}

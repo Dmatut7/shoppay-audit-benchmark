@@ -57,3 +57,7 @@ When comparing agents, keep the prompt and repository commit fixed. Record:
 - score and rationale
 
 This makes future benchmark runs comparable.
+
+## Reference run
+
+See `examples/runs/2026-06-05-codex-reference-audit.md` and `examples/runs/2026-06-05-codex-reference-scorecard.json` for a complete scored example.

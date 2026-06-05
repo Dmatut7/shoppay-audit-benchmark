@@ -52,6 +52,7 @@ A stronger run can ask the agent to implement fixes and add regression tests aft
 
 - `docs/SCORING.md` defines a 100-point rubric for comparing AI audit reports.
 - `examples/audit-report.md` shows the expected report shape and finding detail.
+- `examples/runs/2026-06-05-codex-reference-audit.md` provides a scored reference audit run.
 - `docs/ROADMAP.md` tracks planned benchmark cases.
 - `docs/PROMOTION.md` contains ready-to-share launch copy.
 - `docs/OUTREACH.md` tracks public promotion and directory submissions.
