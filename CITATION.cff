@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: ShopPay Audit Benchmark
+message: If you use this benchmark in an evaluation, please cite the repository.
+type: software
+authors:
+  - family-names: Dmatut7
+repository-code: https://github.com/Dmatut7/shoppay-audit-benchmark
+url: https://dmatut7.github.io/shoppay-audit-benchmark/
+abstract: A compact open-source benchmark for testing whether AI coding agents can find business-logic defects from written product rules.
+license: MIT
+version: 0.1.0
+date-released: '2026-06-05'
+keywords:
+  - AI coding agents
+  - business logic
+  - benchmark
+  - Codex
+  - software testing

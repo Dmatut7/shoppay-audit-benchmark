@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ShopPay Audit Benchmark</title>
+  <meta name="description" content="A compact benchmark for testing whether AI coding agents can find business-logic defects from written product rules.">
+  <meta property="og:title" content="ShopPay Audit Benchmark">
+  <meta property="og:description" content="Test whether AI coding agents can find business-logic bugs that happy-path tests miss.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmatut7.github.io/shoppay-audit-benchmark/">
+  <meta property="og:image" content="https://dmatut7.github.io/shoppay-audit-benchmark/assets/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ShopPay Audit Benchmark">
+  <meta name="twitter:description" content="A tiny OSS benchmark for AI business-logic audits.">
+  <style>
+    :root { color-scheme: light dark; --bg:#0b1020; --panel:#111936; --text:#eef3ff; --muted:#aab6d3; --accent:#7c5cff; --accent2:#35d0ba; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: radial-gradient(circle at top left, #1d2860, var(--bg) 45%); color:var(--text); line-height:1.55; }
+    main { max-width: 1040px; margin: 0 auto; padding: 72px 24px; }
+    .hero { display:grid; gap:28px; grid-template-columns: 1.25fr .75fr; align-items:center; }
+    h1 { font-size: clamp(42px, 7vw, 76px); line-height:.95; letter-spacing:-.06em; margin:0; }
+    h2 { font-size: 26px; margin: 0 0 14px; }
+    p { color:var(--muted); font-size:18px; }
+    .tagline { font-size:22px; max-width:720px; }
+    .card { background: rgba(17,25,54,.78); border:1px solid rgba(255,255,255,.12); border-radius:24px; padding:24px; box-shadow: 0 20px 60px rgba(0,0,0,.28); }
+    .buttons { display:flex; gap:12px; flex-wrap:wrap; margin-top:28px; }
+    a.button { color:#fff; text-decoration:none; background:var(--accent); padding:12px 16px; border-radius:12px; font-weight:700; }
+    a.button.secondary { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.16); }
+    .grid { display:grid; grid-template-columns: repeat(3, 1fr); gap:18px; margin-top:52px; }
+    .metric { font-size:34px; font-weight:800; color:#fff; }
+    code { background:rgba(255,255,255,.1); padding:2px 6px; border-radius:7px; color:#fff; }
+    pre { overflow:auto; padding:18px; border-radius:16px; background:#050816; border:1px solid rgba(255,255,255,.1); }
+    ul { color:var(--muted); padding-left:20px; }
+    .accent { color:var(--accent2); }
+    footer { margin-top:60px; color:var(--muted); font-size:14px; }
+    @media (max-width: 820px) { .hero, .grid { grid-template-columns:1fr; } main { padding-top:42px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div>
+        <h1>Can your AI agent find business-logic bugs?</h1>
+        <p class="tagline">ShopPay Audit Benchmark is a compact open-source target for testing whether coding agents can read product rules, inspect code, and catch defects that happy-path tests miss.</p>
+        <div class="buttons">
+          <a class="button" href="https://github.com/Dmatut7/shoppay-audit-benchmark">View on GitHub</a>
+          <a class="button secondary" href="https://github.com/Dmatut7/shoppay-audit-benchmark/blob/main/BENCHMARK.md">Benchmark guide</a>
+          <a class="button secondary" href="https://github.com/Dmatut7/shoppay-audit-benchmark/blob/main/docs/SCORING.md">Scoring rubric</a>
+        </div>
+      </div>
+      <div class="card">
+        <h2>What it tests</h2>
+        <ul>
+          <li>Refund amount and lifecycle rules</li>
+          <li>Order ownership and admin authorization</li>
+          <li>Webhook signature trust</li>
+          <li>Wallet atomicity and double-spend</li>
+          <li>Tax-after-discount calculation</li>
+          <li>Profile privilege boundaries</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card"><div class="metric">9</div><p>Baseline tests documenting seeded defects.</p></div>
+      <div class="card"><div class="metric">100</div><p>Point scoring rubric for comparing audit reports.</p></div>
+      <div class="card"><div class="metric">0 deps</div><p>Runs with Node.js built-ins only.</p></div>
+    </section>
+
+    <section class="card" style="margin-top:52px">
+      <h2>Try it</h2>
+      <pre><code>git clone https://github.com/Dmatut7/shoppay-audit-benchmark.git
+cd shoppay-audit-benchmark
+npm test</code></pre>
+      <p>Then ask an AI coding agent to read <code>SPEC.md</code>, audit <code>src/</code>, and report every implementation behavior that violates the written business rules.</p>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Why it matters</h2>
+      <p>Many evaluations reward agents for fixing syntax errors or passing obvious tests. ShopPay focuses on a harder product-engineering skill: mapping code behavior back to business intent.</p>
+    </section>
+
+    <footer>
+      MIT licensed. Built for maintainers, AI-agent builders, and anyone testing business-logic audit quality.
+    </footer>
+  </main>
+</body>
+</html>
