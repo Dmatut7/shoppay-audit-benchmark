@@ -1,5 +1,8 @@
 # ShopPay Audit Benchmark
 
+[![Test](https://github.com/Dmatut7/shoppay-audit-benchmark/actions/workflows/test.yml/badge.svg)](https://github.com/Dmatut7/shoppay-audit-benchmark/actions/workflows/test.yml)
+
+
 ShopPay Audit Benchmark is a compact, intentionally flawed payment and wallet service for evaluating whether AI coding agents can find **business-logic defects** that happy-path tests miss.
 
 The project is designed for Codex-style audit workflows: read the business rules, inspect the implementation, identify rule violations, and optionally submit a fix with regression tests.
@@ -54,6 +57,10 @@ For a fix branch, replace the baseline-vulnerability assertions with regression 
 - Wallet balance and atomic deduction
 - Tax and discount ordering
 - Profile update privilege boundaries
+
+## Contributing
+
+See `CONTRIBUTING.md` and `docs/ROADMAP.md` for the contribution model and planned benchmark cases.
 
 ## License
 

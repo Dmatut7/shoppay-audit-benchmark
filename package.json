@@ -15,5 +15,13 @@
     "payments",
     "testing"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmatut7/shoppay-audit-benchmark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Dmatut7/shoppay-audit-benchmark/issues"
+  },
+  "homepage": "https://github.com/Dmatut7/shoppay-audit-benchmark#readme"
 }
