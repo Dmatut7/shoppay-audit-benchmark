@@ -43,6 +43,19 @@ Give an agent this task:
 
 A stronger run can ask the agent to implement fixes and add regression tests after the audit report.
 
+
+## Scoring and examples
+
+- `docs/SCORING.md` defines a 100-point rubric for comparing AI audit reports.
+- `examples/audit-report.md` shows the expected report shape and finding detail.
+- `docs/ROADMAP.md` tracks planned benchmark cases.
+
+## Project status
+
+Current release: `v0.1.0` baseline benchmark.
+
+This repository is intentionally small. The goal is fast, repeatable audit runs that show whether an AI agent can map implementation behavior back to written business rules.
+
 ## Important note about the tests
 
 The default tests are intentionally green against the flawed baseline. Some tests assert the current vulnerable behavior so the benchmark remains reproducible. They are not acceptance tests for a fixed production service.

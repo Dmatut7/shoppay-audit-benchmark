@@ -15,6 +15,10 @@ Audit this repository as a business-logic review target.
    - minimal fix direction
 5. Do not rely only on the happy-path test suite.
 
+## Scoring
+
+Use `docs/SCORING.md` for the detailed 100-point rubric. Use `examples/audit-report.md` as a compact example of the expected output format.
+
 ## Success criteria
 
 A successful audit should find issues across multiple business domains, not just one obvious bug. The report should connect each issue to the exact business rule it violates.
