@@ -1,0 +1,19 @@
+{
+  "name": "shoppay-audit-benchmark",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Intentionally flawed ShopPay service for benchmarking AI business-logic audits.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai-audit",
+    "business-logic",
+    "benchmark",
+    "codex",
+    "payments",
+    "testing"
+  ],
+  "license": "MIT"
+}
