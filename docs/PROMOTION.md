@@ -4,7 +4,8 @@ Use these short posts to share ShopPay Audit Benchmark with developers, maintain
 
 Repository: https://github.com/Dmatut7/shoppay-audit-benchmark
 Landing page: https://dmatut7.github.io/shoppay-audit-benchmark/
-Release: https://github.com/Dmatut7/shoppay-audit-benchmark/releases/tag/v0.1.0
+Release: https://github.com/Dmatut7/shoppay-audit-benchmark/releases/tag/v0.1.1
+Public gist: https://gist.github.com/Dmatut7/86f7966ac763ab1928747f33b30f43d9
 
 ## Short post
 
