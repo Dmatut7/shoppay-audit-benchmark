@@ -1,5 +1,15 @@
 # Changelog
 
+## v0.1.2 - 2026-06-05
+
+Outreach and reference-run update.
+
+### Added
+
+- Scored Codex reference audit run.
+- JSON scorecard example.
+- Public outreach log updates for benchmark-directory PRs.
+
 ## v0.1.1 - 2026-06-05
 
 Promotion and discovery update.

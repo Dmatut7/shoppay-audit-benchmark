@@ -19,7 +19,14 @@ This file tracks public promotion and directory-submission work for ShopPay Audi
 | 2026-06-05 | Awesome General Agents Benchmark | Pull request | Open | https://github.com/supernalintelligence/Awesome-General-Agents-Benchmark/pull/3 |
 | 2026-06-05 | Awesome AI Eval | Pull request | Open | https://github.com/Vvkmnn/awesome-ai-eval/pull/16 |
 | 2026-06-05 | Awesome LLM Eval | Pull request | Open | https://github.com/onejune2018/Awesome-LLM-Eval/pull/53 |
+| 2026-06-05 | Awesome AI Code Review | Pull request | Open | https://github.com/kodustech/awesome-ai-code-review/pull/17 |
 
 ## Share copy
 
 Reusable posts are in `docs/PROMOTION.md`.
+
+## Reference audit run
+
+- Report: https://github.com/Dmatut7/shoppay-audit-benchmark/blob/main/examples/runs/2026-06-05-codex-reference-audit.md
+- Scorecard: https://github.com/Dmatut7/shoppay-audit-benchmark/blob/main/examples/runs/2026-06-05-codex-reference-scorecard.json
+- Announcement: https://github.com/Dmatut7/shoppay-audit-benchmark/discussions/12
