@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.1 - 2026-06-05
+
+Promotion and discovery update.
+
+### Added
+
+- GitHub Pages landing page.
+- Social card artwork.
+- Promotion kit with launch copy.
+- `llms.txt`, `robots.txt`, sitemap, and structured metadata.
+- Security policy and citation metadata.
+
 ## v0.1.0 - 2026-06-05
 
 Initial public benchmark release.
