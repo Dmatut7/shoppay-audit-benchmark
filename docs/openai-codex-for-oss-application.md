@@ -11,10 +11,10 @@ Before submitting:
 
 ## Suggested repository URL
 
-Use the public GitHub URL after pushing, for example:
+Use this public GitHub URL:
 
 ```text
-https://github.com/YOUR_GITHUB_USERNAME/shoppay-audit-benchmark
+https://github.com/Dmatut7/shoppay-audit-benchmark
 ```
 
 ## Describe your role
