@@ -54,6 +54,7 @@ A stronger run can ask the agent to implement fixes and add regression tests aft
 - `examples/audit-report.md` shows the expected report shape and finding detail.
 - `docs/ROADMAP.md` tracks planned benchmark cases.
 - `docs/PROMOTION.md` contains ready-to-share launch copy.
+- `docs/OUTREACH.md` tracks public promotion and directory submissions.
 
 ## Project status
 
