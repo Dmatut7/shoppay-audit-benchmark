@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dmatut7.github.io/shoppay-audit-benchmark/sitemap.xml

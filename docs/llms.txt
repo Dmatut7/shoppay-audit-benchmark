@@ -1,0 +1,20 @@
+# ShopPay Audit Benchmark
+
+> A compact open-source benchmark for testing whether AI coding agents can find business-logic defects from written product rules.
+
+Repository: https://github.com/Dmatut7/shoppay-audit-benchmark
+Landing page: https://dmatut7.github.io/shoppay-audit-benchmark/
+License: MIT
+
+## Core files
+
+- SPEC.md: source of truth for business rules.
+- src/: intentionally flawed benchmark implementation.
+- test/: baseline tests documenting seeded behavior.
+- BENCHMARK.md: audit task and maintainer answer key.
+- docs/SCORING.md: 100-point scoring rubric.
+- examples/audit-report.md: example report format.
+
+## Suggested agent task
+
+Read SPEC.md, audit src/, and report every implementation behavior that violates the business rules. For each finding, include the violated rule, impacted file/function, reproduction idea, and minimal fix direction.
